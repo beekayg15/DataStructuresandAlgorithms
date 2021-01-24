@@ -18,8 +18,8 @@
 /*
 
 Time Complexity: O(N), N -> Number of Nodes
-* Space Complexity: O(N), N -> Number of Nodes
-* 
+Space Complexity: O(N), N -> Number of Nodes
+
 */
 
 using namespace std;
