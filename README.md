@@ -7,6 +7,7 @@
 <img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/sublime-text.svg"/>
 <img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/c.svg"/>
 <img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/python-5.svg"/>
+<img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg"/>
 <img width="45" height="45" hspace="10" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
 <img width="45" height="45" hspace="10" src="https://www.vectorlogo.zone/logos/github/github-icon.svg"/>
 </p>
