@@ -17,6 +17,7 @@
 #define miv map<int,vector<int>>
 #define vf vector<float>
 #define vd vector<double>
+#define vii vector<vector<int>>
 
 using namespace std;
 
