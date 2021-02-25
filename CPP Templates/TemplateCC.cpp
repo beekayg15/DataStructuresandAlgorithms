@@ -22,6 +22,9 @@
 #define pb push_back
 #define vs vector<string>
 #define sint set<int>
+#define pii pair<int,int>
+#define vpii vector<pair<int,int>>
+#define int64 long long int
 
 using namespace std;
 
