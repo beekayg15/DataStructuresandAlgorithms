@@ -81,7 +81,7 @@ class SparseMatrix:
                     p=p.next_column
                     q=q.next_column
                 elif p.col<q.col:
-                    self.insert(i,p.col,p,data)
+                    self.insert(i,p.col,p.data)
                     p=p.next_column
                 else:
                     self.insert(i,q.col,-1*q.data)
