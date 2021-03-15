@@ -5,6 +5,7 @@ import random
 input=sys.stdin.readline
 print=sys.stdout.write
 sys.setrecursionlimit(1000000)
+mod=1000000007
 
 def lin():
     return list(map(int,input().split()))
