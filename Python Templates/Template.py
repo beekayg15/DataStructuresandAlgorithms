@@ -1,3 +1,5 @@
+# Python Template
+
 import math
 import sys
 import collections
