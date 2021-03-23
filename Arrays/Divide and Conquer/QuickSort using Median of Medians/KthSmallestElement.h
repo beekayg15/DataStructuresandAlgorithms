@@ -82,7 +82,7 @@ int partition (vint &arr , int start , int end , int pivot)
 //	arr 		- dynamic array
 //	start 		- starting index of array/sub-array
 //	end		- ending index of array/sub-array
-//	k 			- k'th samllest in array/sub-array
+//	k 		- k'th samllest in array/sub-array
 // ---------------------------------------------------------------------------
 int kthSmallestElement (vint arr , int start , int end , int k)
 {
