@@ -129,7 +129,7 @@ int kthSmallestElement (vint arr , int start , int end , int k)
 		median_of_medians = medians[0];
 	}
 
-	// Finding the median in the 'medains' array via recursion
+	// Finding the median in the 'medians' array via recursion
 	else
 	{
 		median_of_medians = kthSmallestElement(medians , 0 , median_count-1 , ceil (median_count/2.0));
