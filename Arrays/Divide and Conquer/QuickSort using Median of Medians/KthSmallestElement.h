@@ -76,14 +76,14 @@ int partition (vint &arr , int start , int end , int pivot)
 	return insert - 1;
 }
 
-// ---------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------
 // A Function to find the k'th smallest element in an array/sub-array
 //	Description	: finds k'th smallest element using medain of medians approach
 //	arr 		- dynamic array
 //	start 		- starting index of array/sub-array
 //	end		- ending index of array/sub-array
 //	k 		- k'th samllest in array/sub-array
-// ---------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------
 int kthSmallestElement (vint arr , int start , int end , int k)
 {
 	int n = end - start + 1;		// Number of elements in array/sub-array
