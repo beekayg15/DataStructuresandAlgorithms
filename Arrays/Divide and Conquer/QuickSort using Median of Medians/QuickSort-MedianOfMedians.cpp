@@ -19,10 +19,10 @@ void quicksort (vint &arr , int start , int end);
 
 // ----------------------------------------------------------------------------
 // A Function to perform quicksort with the help of median of medians algorithm
-//	Description : sorts elements of an array in ascending order
+//	Description	: sorts elements of an array in ascending order
 //	arr 		- dynamic array
 //	start 		- starting index of array/sub-array
-//	end			- ending index of array/sub-array
+//	end		- ending index of array/sub-array
 // ----------------------------------------------------------------------------
 void quicksort (vint &arr , int start , int end)
 {
