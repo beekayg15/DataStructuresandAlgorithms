@@ -27,9 +27,9 @@ int kthSmallestElement (vint arr , int start , int end , int k);
 // ----------------------------------------------------
 // A Function to swap values in two indices of an array
 //	Description	: Swaps elements in an array
-//	arr 	- dynamic array
-//	i 	- index 1
-//	j	- index 2
+//	arr 		- dynamic array
+//	i 		- index 1
+//	j		- index 2
 // ----------------------------------------------------
 void swap (vint &arr , int i , int j) 
 {
@@ -40,14 +40,14 @@ void swap (vint &arr , int i , int j)
 	return;
 }
 
-// --------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------
 // A Function to partition an array with respect to the pivot
 //	Description	: partitions elements smaller than pivot to left and vice-versa
-//	arr 	- dynamic array
-//	start 	- starting index of array/sub-array
-//	end	- ending index of array/sub-array
-//	pivot	- pivoting element
-// --------------------------------------------------------------------------------
+//	arr 		- dynamic array
+//	start 		- starting index of array/sub-array
+//	end		- ending index of array/sub-array
+//	pivot		- pivoting element
+// ------------------------------------------------------------------------------------
 int partition (vint &arr , int start , int end , int pivot) 
 {
 	// Moving the pivot element to the end
@@ -81,14 +81,14 @@ int partition (vint &arr , int start , int end , int pivot)
 //	Description	: finds k'th smallest element using medain of medians approach
 //	arr 		- dynamic array
 //	start 		- starting index of array/sub-array
-//	end			- ending index of array/sub-array
-//  k 			- k'th samllest in array/sub-array
+//	end		- ending index of array/sub-array
+//	k 			- k'th samllest in array/sub-array
 // ---------------------------------------------------------------------------
 int kthSmallestElement (vint arr , int start , int end , int k)
 {
 	int n = end - start + 1;		// Number of elements in array/sub-array
 	int median_count = 0;			// Number of subgroup medians
-	vint medians;					// Dynamic array to store median of subgroups
+	vint medians;				// Dynamic array to store median of subgroups
 
 	// Partition array into groups of five
 	for (int i = 0; i < n/5; i++)
