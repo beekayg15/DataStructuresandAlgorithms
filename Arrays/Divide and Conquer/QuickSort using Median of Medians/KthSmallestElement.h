@@ -2,11 +2,11 @@
 // Header Files
 #include <iostream>			// For standard input/ouput handling
 #include <vector>			// To use dynamic arrays
-#include <algorithm>		// To use sort() function
+#include <algorithm>			// To use sort() function
 #include <cmath>			// To use ceil() function
 
 // Marcos
-#define vint vector<int>	// vint refers to vector<int>
+#define vint vector<int>		// vint refers to vector<int>
 
 /*
 
@@ -17,7 +17,7 @@ Space Complexity : O(N), N -> Number of elements
 
 */
 
-using namespace std;		// Using the standard namespace
+using namespace std;			// Using the standard namespace
 
 // Function Prototypes
 void swap (vint &arr , int i , int j);
@@ -26,10 +26,10 @@ int kthSmallestElement (vint arr , int start , int end , int k);
 
 // ----------------------------------------------------
 // A Function to swap values in two indices of an array
-//	Description : Swaps elements in an array
-//	arr 		- dynamic array
-//	i 			- index 1
-//	j			- index 2
+//	Description	: Swaps elements in an array
+//	arr 	- dynamic array
+//	i 	- index 1
+//	j	- index 2
 // ----------------------------------------------------
 void swap (vint &arr , int i , int j) 
 {
@@ -40,14 +40,14 @@ void swap (vint &arr , int i , int j)
 	return;
 }
 
-// ----------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
 // A Function to partition an array with respect to the pivot
-//	Description : partitions elements smaller than pivot to left and vice-versa
-//	arr 		- dynamic array
-//	start 		- starting index of array/sub-array
-//	end			- ending index of array/sub-array
-//  pivot		- pivoting element
-// ----------------------------------------------------------------------------
+//	Description	: partitions elements smaller than pivot to left and vice-versa
+//	arr 	- dynamic array
+//	start 	- starting index of array/sub-array
+//	end	- ending index of array/sub-array
+//	pivot	- pivoting element
+// --------------------------------------------------------------------------------
 int partition (vint &arr , int start , int end , int pivot) 
 {
 	// Moving the pivot element to the end
@@ -78,7 +78,7 @@ int partition (vint &arr , int start , int end , int pivot)
 
 // ---------------------------------------------------------------------------
 // A Function to find the k'th smallest element in an array/sub-array
-//	Description : finds k'th smallest element using medain of medians approach
+//	Description	: finds k'th smallest element using medain of medians approach
 //	arr 		- dynamic array
 //	start 		- starting index of array/sub-array
 //	end			- ending index of array/sub-array
